@@ -1,0 +1,68 @@
+.navbar-top {
+
+    max-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 72px;
+    padding-right: 79px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+
+    & img {
+        width: 162.57px;
+        height: 24px;
+    }
+
+    & .navbar-input {
+        background: #F2F2F2;
+        border-radius: 21px;
+        width: 360px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        gap: 17.22px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+        & svg {
+            margin-left: 16.75px;
+            height: 22px;
+            width: 22px;
+        }
+    }
+
+    & input  {
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+
+
+        color: #5C5C5C;
+       
+    }
+
+    .create-account {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: right;
+        color: #2E2E2E;
+        gap: 7px;
+    }
+
+}
+
+.blue-text {
+    color: #2F6CE5;
+}

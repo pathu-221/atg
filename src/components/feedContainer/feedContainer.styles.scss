@@ -1,0 +1,184 @@
+.feed-content {
+    width: 692px;
+    max-height: 472px;
+    left: 200px;
+    top: 628px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+
+
+    & .meet-up-button {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140.4%;
+        /* or 18px */
+
+        text-align: center;
+
+        color: #E56135;
+        width: 100%;
+        height: 38px;
+        left: 220px;
+        top: 1956px;
+        margin-bottom: 32px;
+
+        background: #FFFFFF;
+        border: 0.7px dashed #A9AEB8;
+        border-radius: 8px;
+    }
+
+    & img {
+        margin: 0;
+    }
+
+    .feed-text-content {
+
+        max-width: 692px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        & h5 {
+            font-style: normal;
+            margin: 0;
+            margin-bottom: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+
+            color: #000000;
+        }
+
+        & .heading-section {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            & h3 {
+                width: 600px;
+                margin: 0;
+                margin-bottom: 12px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 30px;
+                color: #000000;
+            }
+
+        }
+
+        & p {
+            margin: 0;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 25px;
+            color: #5C5C5C;
+            margin-bottom: 32px;
+        }
+
+        & .profile-share-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+
+            & .profile-picture-section {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                & img {
+                    margin: 0;
+                }
+
+                & p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 23px;
+                    /* identical to box height */
+
+                    margin: 0;
+                    color: #000000;
+                }
+
+
+            }
+
+            & .views-share {
+                display: flex;
+                align-items: center;
+
+                & p {
+                    margin: 0;
+                    margin-left: 8.75px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 18px;
+                    text-align: right;
+
+                    color: #525252;
+                }
+
+                & img {
+                    margin: 0;
+                    margin-left: 40px;
+                }
+
+                ;
+            }
+        }
+    }
+
+    .green-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140.4%;
+        /* or 18px */
+
+        text-align: center;
+
+        color: #02B875;
+    }
+
+    & .content {
+        width: 399px;
+
+        & .location,
+        .company {
+            display: flex;
+
+            align-items: center;
+            margin-bottom: 16px;
+            gap: 7px;
+
+            & p {
+                margin: 0;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 20px;
+                /* identical to box height */
+
+
+                color: #000000;
+            }
+
+            ;
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}

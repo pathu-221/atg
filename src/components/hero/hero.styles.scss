@@ -1,0 +1,39 @@
+.hero-section {
+    background-image: url(../../assets/hero/hero-image.png);
+    height: 440px;
+    z-index: -2;
+    position: relative;
+
+    & .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 440px;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+    }
+
+    & h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 4px;
+        padding-left: 200px;
+        padding-top: 286px;
+    }
+
+    & p {
+        margin: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+
+        color: #FFFFFF;
+        padding-left: 200px;
+    }
+}
