@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+
+[live](https://bright-cuchufli-e1712d.netlify.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
