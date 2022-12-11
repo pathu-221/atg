@@ -12,7 +12,7 @@ function FeedContainer(props) {
       case 'article':
         return (
           <>
-            <img src={image} />
+            <img src={image}  alt='profile' />
             <div className='feed-text-content'>
               <h5>✍️ Article</h5>
               <span className='heading-section'><h3>{head}</h3><svg width="20" height="6" viewBox="0 0 20 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,13 +22,13 @@ function FeedContainer(props) {
               <p>{content}</p>
               <span className='profile-share-section'>
                 <span className='profile-picture-section'>
-                  <img src={profilePic} />
+                  <img src={profilePic}  alt='profile' />
                   <p className='profile-name'>{profilename}</p>
                 </span>
                 <span className='views-share'>
-                  <img src={eyeicon} />
+                  <img src={eyeicon}  alt='profile' />
                   <p>{views}</p>
-                  <img src={shareicon} />
+                  <img src={shareicon}  alt='profile' />
                 </span>
               </span>
             </div>
@@ -38,7 +38,7 @@ function FeedContainer(props) {
       case 'education':
         return (
           <>
-            <img src={image} />
+            <img src={image} alt='profile' />
             <div className='feed-text-content'>
               <h5>🔬️ Education</h5>
               <span className='heading-section'><h3>{head}</h3><svg width="20" height="6" viewBox="0 0 20 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,13 +48,13 @@ function FeedContainer(props) {
               <p>{content}</p>
               <span className='profile-share-section'>
                 <span className='profile-picture-section'>
-                  <img src={profilePic} />
+                  <img src={profilePic}  alt='profile' />
                   <p className='profile-name'>{profilename}</p>
                 </span>
                 <span className='views-share'>
-                  <img src={eyeicon} />
+                  <img src={eyeicon}  alt='profile' />
                   <p>{views}</p>
-                  <img src={shareicon} />
+                  <img src={shareicon}  alt='profile' />
                 </span>
               </span>
             </div>
@@ -87,13 +87,13 @@ function FeedContainer(props) {
 
               <span className='profile-share-section'>
                 <span className='profile-picture-section'>
-                  <img src={profilePic} />
+                  <img src={profilePic}  alt='profile' />
                   <p className='profile-name'>{profilename}</p>
                 </span>
                 <span className='views-share'>
-                  <img src={eyeicon} />
+                  <img src={eyeicon}  alt='profile' />
                   <p>{views}</p>
-                  <img src={shareicon} />
+                  <img src={shareicon}  alt='profile' />
                 </span>
               </span>
             </div>
@@ -102,7 +102,7 @@ function FeedContainer(props) {
       case 'meetup':
         return (
           <>
-            <img src={image} />
+            <img src={image}  alt='profile' />
             <div className='feed-text-content'>
               <h5>🗓️ Meetup</h5>
               <span className='heading-section'><h3>{head}</h3><svg width="20" height="6" viewBox="0 0 20 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,13 +134,13 @@ function FeedContainer(props) {
               <button className='meet-up-button'>Visit Website</button>
               <span className='profile-share-section'>
                 <span className='profile-picture-section'>
-                  <img src={profilePic} />
+                  <img src={profilePic}  alt='profile' />
                   <p className='profile-name'>{profilename}</p>
                 </span>
                 <span className='views-share'>
-                  <img src={eyeicon} />
+                  <img src={eyeicon}  alt='profile' />
                   <p>{views}</p>
-                  <img src={shareicon} />
+                  <img src={shareicon}  alt='profile' />
                 </span>
               </span>
             </div>

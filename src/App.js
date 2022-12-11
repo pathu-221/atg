@@ -9,8 +9,7 @@ import FeedOverview from './components/FeedOverview/FeedOverview';
 
 function App() {
 
-  const [selected, setSelected] = useState(null);
-  const [user, setUser] = useState(null);
+  const [user] = useState(null);
   const [open, isOpen] = useState(false);
 
   const handleClose = () => {

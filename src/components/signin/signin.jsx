@@ -1,6 +1,5 @@
 import React from 'react'
 import CustomInput from '../customInput/custominput';
-import Backdrop from '../backdrop/backdrop';
 import facebookIcon from '../../assets/icons/facebookicon.png';
 import GoogleIcon from '../../assets/icons/google.png';
 import illustration from '../../assets/logo/signup-page.png';
